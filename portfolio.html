@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tariq Mustafa — Junior Backend Engineer</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">TM.init()</div>
+    <ul class="nav-links">
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#education">education</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div style="position:relative; overflow:hidden;">
+    <div class="hero-grid"></div>
+    <div class="hero" style="max-width:1400px; margin:0 auto;">
+      <div class="hero-content">
+        <div class="hero-badge">Open to junior backend roles</div>
+        <h1>
+          <span class="name">Tariq Mustafa</span>
+          <span class="role">Junior Backend Engineer</span>
+        </h1>
+        <p class="hero-tagline">
+          Building solid foundations in <code>C# / .NET</code> —
+          clean architecture, clean APIs, well-tested code, and a genuine drive to learn
+          from every codebase I touch.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <span>⬡</span> View Projects
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>→</span> Get in touch
+          </a>
+        </div>
+      </div>
+
+      <div class="terminal" id="terminal">
+        <div class="terminal-bar">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <span class="terminal-title">dotnet run — portfolio.csproj</span>
+        </div>
+        <div class="terminal-body">
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd">dotnet run --project Portfolio</span></div>
+          <div class="t-out"><span class="t-comment">// Building Tariq Mustafa's profile...</span></div>
+          <div class="t-out">&nbsp;</div>
+          <div class="t-out"><span class="t-key">var</span> developer = <span class="t-key">new</span> <span class="t-cmd">Developer</span> {</div>
+          <div class="t-out">&nbsp;&nbsp;<span class="t-key">Name</span> = <span class="t-str">"Tariq Mustafa"</span>,</div>
+          <div class="t-out">&nbsp;&nbsp;<span class="t-key">Role</span> = <span class="t-str">"Junior Backend Engineer"</span>,</div>
+          <div class="t-out">&nbsp;&nbsp;<span class="t-key">Stack</span> = [<span class="t-str">"C#"</span>, <span class="t-str">".NET 8"</span>, <span class="t-str">"SQL"</span>],</div>
+          <div class="t-out">&nbsp;&nbsp;<span class="t-key">YearsExp</span> = <span class="t-val">1</span>,</div>
+          <div class="t-out">&nbsp;&nbsp;<span class="t-key">Available</span> = <span class="t-val">true</span></div>
+          <div class="t-out">};</div>
+          <div class="t-out">&nbsp;</div>
+          <div class="t-out"><span class="t-comment">// Build succeeded. 0 errors, 0 warnings.</span></div>
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd"> <span class="cursor"></span></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- METRICS -->
+  <section id="metrics" style="padding-top: 0; padding-bottom: 0;">
+    <div class="metrics">
+      <div class="metric"><div class="metric-num">2+</div><div class="metric-label">Year Coding in C# .Net</div></div>
+      <div class="metric"><div class="metric-num">4</div><div class="metric-label">Projects Built</div></div>
+      <div class="metric"><div class="metric-num">80%+</div><div class="metric-label">Avg. Test Coverage</div></div>
+      <div class="metric"><div class="metric-num">Soon</div><div class="metric-label">Certifications</div></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">// core competencies</div>
+    <h2 class="section-title">What I build with</h2>
+    <p class="section-sub">A growing toolkit in the .NET ecosystem, built through coursework, personal projects, and a genuine love for clean code.</p>
+
+    <div class="skills-grid">
+      <div class="skill-card" style="--accent-bar: #7EE787">
+        <div class="skill-icon">⚙️</div>
+        <div class="skill-name">C# & .NET 8</div>
+        <div class="skill-desc">Comfortable with the language fundamentals — async/await, LINQ, generics, and object-oriented design. Always digging deeper into the "why" behind patterns.</div>
+        <div class="skill-tags">
+          <span class="tag green">C# 12</span>
+          <span class="tag green">.NET 8</span>
+          <span class="tag green">LINQ</span>
+          <span class="tag green">OOP</span>
+        </div>
+      </div>
+
+      <div class="skill-card" style="--accent-bar: #58A6FF">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">ASP.NET Core</div>
+        <div class="skill-desc">Built REST APIs with Minimal APIs and MVC controllers, middleware, model validation, and basic auth flows for personal and academic projects.</div>
+        <div class="skill-tags">
+          <span class="tag">ASP.NET Core</span>
+          <span class="tag">Web API</span>
+          <span class="tag">Minimal API</span>
+          <span class="tag">Swagger</span>
+        </div>
+      </div>
+
+      <div class="skill-card" style="--accent-bar: #BC8CFF">
+        <div class="skill-icon">🗄️</div>
+        <div class="skill-name">Data & Persistence</div>
+        <div class="skill-desc">Entity Framework Core for ORM-based data access, hands-on SQL Server queries, and a working understanding of relational database design.</div>
+        <div class="skill-tags">
+          <span class="tag purple">EF Core</span>
+          <span class="tag purple">SQL Server</span>
+          <span class="tag purple">LINQ to SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card" style="--accent-bar: #E3B341">
+        <div class="skill-icon">☁️</div>
+        <div class="skill-name">DevOps Basics</div>
+        <div class="skill-desc">Basic familiarity with Docker containers, and Git-based CI workflows through GitHub Actions.</div>
+        <div class="skill-tags">
+          <span class="tag yellow">Docker</span>
+          <span class="tag yellow">GitHub Actions</span>
+        </div>
+      </div>
+
+      <div class="skill-card" style="--accent-bar: #F78166">
+        <div class="skill-icon">🏗️</div>
+        <div class="skill-name">Architecture Fundamentals</div>
+        <div class="skill-desc">Studying and applying core patterns — Clean architecture, repository pattern, dependency injection, and SOLID principles in personal projects.</div>
+        <div class="skill-tags">
+          <span class="tag orange">SOLID</span>
+          <span class="tag orange">DI</span>
+          <span class="tag orange">DDD</span>
+          <span class="tag orange">MassTransit</span>
+        </div>
+      </div>
+
+      <div class="skill-card" style="--accent-bar: #79C0FF">
+        <div class="skill-icon">🧪</div>
+        <div class="skill-name">Testing & Quality</div>
+        <div class="skill-desc">Writing unit tests with xUnit, learning test-driven development habits, and practicing clean, readable code through code review feedback.</div>
+        <div class="skill-tags">
+          <span class="tag">xUnit</span>
+          <span class="tag">Unit Testing</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="subsection-label">// how I work</div>
+    <h3 style="font-family:'JetBrains Mono',monospace; font-size:1.2rem; font-weight:700;">Soft skills</h3>
+
+    <div class="softskills-grid">
+      <div class="soft-card">
+        <div class="soft-icon">⌗</div>
+        <div class="soft-body">
+          <div class="soft-name">Communication</div>
+          <div class="soft-desc">Clear about progress and blockers; ask good questions instead of guessing.</div>
+        </div>
+      </div>
+      <div class="soft-card">
+        <div class="soft-icon">⌬</div>
+        <div class="soft-body">
+          <div class="soft-name">Eagerness to learn</div>
+          <div class="soft-desc">Actively seek feedback in code reviews and apply it to the next pull request.</div>
+        </div>
+      </div>
+      <div class="soft-card">
+        <div class="soft-icon">◈</div>
+        <div class="soft-body">
+          <div class="soft-name">Problem solving</div>
+          <div class="soft-desc">Break down unfamiliar problems into small, testable steps before coding.</div>
+        </div>
+      </div>
+      <div class="soft-card">
+        <div class="soft-icon">⌖</div>
+        <div class="soft-body">
+          <div class="soft-name">Reliability</div>
+          <div class="soft-desc">Deliver on commitments and follow through on tasks without hand-holding.</div>
+        </div>
+      </div>
+      <div class="soft-card">
+        <div class="soft-icon">⎌</div>
+        <div class="soft-body">
+          <div class="soft-name">Adaptability</div>
+          <div class="soft-desc">Comfortable picking up new frameworks and tools quickly when a project needs it.</div>
+        </div>
+      </div>
+      <div class="soft-card">
+        <div class="soft-icon">⌘</div>
+        <div class="soft-body">
+          <div class="soft-name">Collaboration</div>
+          <div class="soft-desc">Work well in team projects — pair programming, stand-ups, and shared repos.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label">// academic background</div>
+    <h2 class="section-title">Education</h2>
+    <p class="section-sub">Formal foundation in computer science, backed by hands-on certification in the .NET ecosystem.</p>
+
+    <div class="education-grid">
+      <div class="edu-card">
+        <div class="edu-top">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-date">2022 — 2026</div>
+        </div>
+        <div class="edu-degree">B.Sc. in Computer Science and artificial intelligence</div>
+        <div class="edu-school">Capital University Formaly [Helwan University] · Helwan, EG</div>
+        <div class="edu-desc">Focused on software engineering, algorithms, and database systems. Graduation project: A TUMOR HOSPITAL MANAGEMENT SYSTEM built with ASP.NET Core and EF Core.</div>
+        <div class="edu-tags">
+          <span class="tag green">Algorithms</span>
+          <span class="tag green">Databases</span>
+          <span class="tag green">OOP</span>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-top">
+          <div class="edu-icon">📜</div>
+          <div class="edu-date">2025</div>
+        </div>
+        <div class="edu-degree">Programming in C# Specialization</div>
+        <div class="edu-school">Coursera · Online</div>
+        <div class="edu-desc">Completed a hands-on specialization covering C# fundamentals, OOP, and building applications with .NET.</div>
+        <div class="edu-tags">
+          <span class="tag purple">C#</span>
+          <span class="tag purple">.NET</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CODE SNIPPET -->
+  <section style="padding-top: 0; padding-bottom: 80px;">
+    <div class="section-label">// clean code sample</div>
+    <h2 class="section-title" style="margin-bottom: 24px;">How I write C#</h2>
+    <div class="code-block">
+  <span class="c-comment">// A simple, clean controller using the repository pattern</span>
+  <span class="c-attr">[ApiController]</span>
+  <span class="c-attr">[Route("api/[controller]")]</span>
+  <span class="c-keyword">public class</span> <span class="c-class">ProductsController</span> : <span class="c-class">ControllerBase</span>
+  {
+      <span class="c-keyword">private readonly</span> <span class="c-class">IProductRepository</span> _repository;
+
+      <span class="c-keyword">public</span> <span class="c-class">ProductsController</span>(<span class="c-class">IProductRepository</span> repository)
+      {
+          _repository = repository;
+      }
+
+      <span class="c-attr">[HttpGet("{id:int}")]</span>
+      <span class="c-keyword">public async</span> <span class="c-class">Task</span>&lt;<span class="c-class">IActionResult</span>&gt; <span class="c-method">GetById</span>(<span class="c-keyword">int</span> id)
+      {
+          <span class="c-keyword">var</span> product = <span class="c-keyword">await</span> _repository.<span class="c-method">GetByIdAsync</span>(id);
+
+          <span class="c-keyword">if</span> (product <span class="c-keyword">is null</span>)
+              <span class="c-keyword">return</span> <span class="c-method">NotFound</span>($<span class="c-str">"Product {id} was not found."</span>);
+
+          <span class="c-keyword">return</span> <span class="c-method">Ok</span>(product);
+      }
+
+      <span class="c-attr">[HttpPost]</span>
+      <span class="c-keyword">public async</span> <span class="c-class">Task</span>&lt;<span class="c-class">IActionResult</span>&gt; <span class="c-method">Create</span>(<span class="c-class">CreateProductDto</span> dto)
+      {
+          <span class="c-keyword">if</span> (!<span class="c-class">ModelState</span>.<span class="c-class">IsValid</span>)
+              <span class="c-keyword">return</span> <span class="c-method">BadRequest</span>(<span class="c-class">ModelState</span>);
+
+          <span class="c-keyword">var</span> product = <span class="c-keyword">new</span> <span class="c-class">Product</span>(dto.<span class="c-class">Name</span>, dto.<span class="c-class">Price</span>);
+          <span class="c-keyword">await</span> _repository.<span class="c-method">AddAsync</span>(product);
+
+          <span class="c-keyword">return</span> <span class="c-method">CreatedAtAction</span>(<span class="c-keyword">nameof</span>(<span class="c-method">GetById</span>), <span class="c-keyword">new</span> { id = product.<span class="c-class">Id</span> }, product);
+      }
+  }</div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">// selected work</div>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">Personal and academic projects where I practiced clean code, testing, and real backend fundamentals.</p>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">✅</div>
+          <div class="project-links">
+            <a href="#" class="icon-link" title="GitHub">⌥</a>
+          </div>
+        </div>
+        <div class="project-name">TaskFlow API</div>
+        <div class="project-desc">A REST API for a task management app, built with ASP.NET Core and EF Core. Supports user authentication with JWT, CRUD operations, and pagination. Covered by unit tests using xUnit.</div>
+        <div class="project-stats">
+          <div class="stat"><span>90%</span> test coverage</div>
+          <div class="stat"><span>JWT</span> auth</div>
+          <div class="stat"><span>12</span> endpoints</div>
+        </div>
+        <div class="project-tech">
+          <span class="tag green">.NET 8</span>
+          <span class="tag">EF Core</span>
+          <span class="tag purple">xUnit</span>
+          <span class="tag yellow">SQL Server</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🛒</div>
+          <div class="project-links">
+            <a href="https://github.com/OsamaAhmedX04/RentMate" class="icon-link" title="GitHub">⌥</a>
+            <a href="#" class="icon-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-name">Property Rental Platform</div>
+        <div class="project-desc">A full-featured Rental Platform built with ASP.NET Core API. Applied the repository pattern and dependency injection to keep the codebase testable and organized.</div>
+        <div class="project-stats">
+          <div class="stat"><span>3</span> layers</div>
+          <div class="stat"><span>Repository</span> pattern</div>
+          <div class="stat"><span>Swagger</span> docs</div>
+        </div>
+        <div class="project-tech">
+          <span class="tag orange">C# 12</span>
+          <span class="tag orange">ASP.NET Core</span>
+          <span class="tag">EF Core</span>
+          <span class="tag green">Swagger</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🔑</div>
+          <div class="project-links">
+            <a href="#" class="icon-link" title="GitHub">⌥</a>
+          </div>
+        </div>
+        <div class="project-name">SimpleAuth</div>
+        <div class="project-desc">A learning project implementing user registration, login, and role-based authorization from scratch in ASP.NET Core Identity, to understand how authentication systems work under the hood.</div>
+        <div class="project-stats">
+          <div class="stat"><span>JWT</span> + refresh</div>
+          <div class="stat"><span>Role-based</span> auth</div>
+        </div>
+        <div class="project-tech">
+          <span class="tag">.NET 8</span>
+          <span class="tag purple">Identity</span>
+          <span class="tag yellow">BCrypt</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">📚</div>
+          <div class="project-links">
+            <a href="https://github.com/OsamaAhmedX04/Tumor-Hospital" class="icon-link" title="GitHub">⌥</a>
+            <a href="#" class="icon-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-name">TUMOR HOSPITAL MANAGEMENT SYSTEM (Graduation project)</div>
+        <div class="project-desc">A hospital management system focused on tumor patients, including patient records, appointments, diagnosis tracking, and doctor coordination</div>
+        <div class="project-stats">
+          <div class="stat"><span>EF Core</span> migrations</div>
+          <div class="stat"><span>Final</span> grade: </div>
+        </div>
+        <div class="project-tech">
+          <span class="tag green">C#</span>
+          <span class="tag yellow">EF Core</span>
+          <span class="tag orange">SQL Server</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label">// career history</div>
+    <h2 class="section-title">Experience</h2>
+    <p class="section-sub">An internship where I applied what I learned to real codebases.</p>
+
+<!-- HERE -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">// get in touch</div>
+    <div class="contact-grid">
+      <div class="contact-text">
+        <h2 class="section-title">Let's build something solid.</h2>
+        <p>Looking for my first full-time junior backend role where I can keep learning and contribute from day one. I respond within 24 hours.</p>
+        <a href="mailto:tariqmustafaabdullah@example.com" class="btn btn-primary" style="display:inline-flex; width:fit-content;">
+          Send me an email →
+        </a>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:tariqmustafaabdullah@example.com" class="contact-link">
+          <span class="cl-icon">✉</span>
+          tariqmustafaabdullah@example.com
+        </a>
+        <a href="https://github.com/Tariq-Mustafa" class="contact-link">
+          <span class="cl-icon">⌥</span>
+          github.com/Tariq-Mustafa
+        </a>
+        <a href="https://www.linkedin.com/in/tariq-mustafa-114105417" class="contact-link">
+          <span class="cl-icon">in</span>
+          linkedin.com/in/Tariq-Mustafa
+        </a>
+        <a href="#" class="contact-link">
+          <span class="cl-icon">↓</span>
+          Download CV (PDF)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-text">&copy; 2026 Tariq Mustafa Portfolio — Built with intent.</div>
+    <div class="footer-note">C# · .NET 8 · Always shipping.</div>
+  </footer>
+
+  </body>
+</html>
